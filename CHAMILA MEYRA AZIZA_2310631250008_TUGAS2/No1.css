@@ -1,0 +1,78 @@
+*{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1.head{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+input[ type="text"],
+textarea,
+select {
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+
+
+input[type="radio"]{
+    margin-left: 3px;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+
+input[type="radio"]:hover {
+    border-color: blue; 
+}
+
+
+input[type="radio"]:checked {
+    border-color: blue; 
+    background-color: white;
+}
+
+
+input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button {
+    padding: 8px 10px;
+    background-color: blue;
+    color:azure;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.judul {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+th[colspan="8"] {
+    background-color: white;
+}

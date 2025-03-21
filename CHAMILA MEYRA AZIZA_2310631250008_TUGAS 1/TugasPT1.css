@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.P2 {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.by {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.daftar {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    list-style-type: decimal;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 600;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #222;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.p1::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.lyons {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
